@@ -17,13 +17,12 @@ import HomeWeekend from './components/Weekend'
 import axios from 'axios'
 export default {
   name: 'Home',
-  components: {HomeWeekend, HomeRecommend, HomeIcons, SwiperHeader, HomeHeader},
-  comments: {
-    HomeHeader: HomeHeader,
-    SwiperHeader: SwiperHeader,
-    HomeIcons: HomeIcons,
+  components: {
+    HomeWeekend: HomeWeekend,
     HomeRecommend: HomeRecommend,
-    HomeWeekend: HomeWeekend
+    HomeIcons: HomeIcons,
+    SwiperHeader: SwiperHeader,
+    HomeHeader: HomeHeader
   },
   data () {
     return {
